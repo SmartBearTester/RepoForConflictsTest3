@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:customMockService id="902157e9-fb87-456d-95a3-327fb5c5e2b0" name="TCP Virtual Service 1" xmlns:con="http://eviware.com/soapui/config">
-  <con:description>Test Description</con:description>
+  <con:description>Remote Description</con:description>
   <con:settings>
     <con:setting id="902157e9-fb87-456d-95a3-327fb5c5e2b0fileName">TCP-Virtual-Service-1</con:setting>
   </con:settings>
   <con:properties>
     <con:property>
       <con:name>tcpMockService.port</con:name>
-      <con:value>9897</con:value>
+      <con:value>9898</con:value>
     </con:property>
     <con:property>
       <con:name>tcpMockService.requestDelimiterType</con:name>

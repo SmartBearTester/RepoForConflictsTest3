@@ -4,13 +4,13 @@
     <con:setting id="c3b701c9-079d-4b17-b061-8affbd40bd83fileName">Request-1</con:setting>
   </con:settings>
   <con:defaultResponse>Response 1</con:defaultResponse>
-  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchStyle>RANDOM</con:dispatchStyle>
   <con:dispatchConfig/>
   <con:routeScript/>
   <con:operationProperties>
     <con:property>
       <con:name>requestData</con:name>
-      <con:value>746573742072657175657374</con:value>
+      <con:value>72656d6f74652072657175657374</con:value>
     </con:property>
   </con:operationProperties>
   <con:customResponse name="Response 1" id="f15b9be3-fd5c-4e65-80a3-3f55dac03831">
@@ -19,7 +19,7 @@
     <con:responseProperties>
       <con:property>
         <con:name>responseData</con:name>
-        <con:value>7465737420726573706f6e7365</con:value>
+        <con:value>72656d6f746520726573706f6e7365</con:value>
       </con:property>
     </con:responseProperties>
   </con:customResponse>
